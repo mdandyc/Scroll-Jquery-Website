@@ -133,11 +133,11 @@ html {
       overflow: hidden;
     }
     #dota2{
-    	height: 140px;
+    	height: 100px;
     }
         .main section > img {
-        	margin-left:830px;
-        	margin-top:50px;
+        	margin-left:960px;
+        	margin-top:80px;
       max-width: 100%;
       z-index: 1;
     }
