@@ -20,90 +20,15 @@ html {
     a {
       text-decoration: none;
     }
-        
-    h1, h2 {
-      width: 100%;
-      float: left;
-    }
-        h1 {
-      margin-top: 100px;
-      color: #000;
-      margin-bottom: 5px;
-      font-size: 70px;
-      letter-spacing: -4px;
-      font-weight: 100;
-    }
-        h1 span {
-      font-size: 26px;
-      margin: 0 5px;
-      text-transform: capitalize;
-      background: rgba(0,0,0,0.85);
-      display: inline-block;
-      color: #6D461D;
-      border-radius: 5px 5px;
-      -webkit-border-radius: 5px 5px;
-      -moz-border-radius: 5px 5px;
-      text-shadow: 0 2px 8px rgba(0, 0, 0, 0.75);
-      padding: 3px 10px;
-    }
-    h2 {
-      color: #6D461D;
-      font-weight: 100;
-      margin-top: 0;
-      margin-bottom: 10px;
-    }
-        .pointer {
-      color: #9b59b6;
-      font-family: 'Pacifico', cursive;
-      font-size: 30px;
-      margin-top: 15px;
-    }
-       code {
-      margin: 20px 1%;
-      float: left;
-      width: 48%;
-      height: 105px;
-      background: rgba(0,0,0,0.1);
-      border: rgba(0,0,0,0.05) 5px solid;
-      border-radius: 5px;
-      padding:5px;
-      color: white;
-      text-align: center;
-      font-size: 15px;
-      margin-top: 25px;
-      display: block;
-      box-sizing: border-box;
-      -webkit-box-sizing: border-box;
-      -moz-box-sizing: border-box;
-    }
-    code.html {
-      color: #7EC9E6;
-    }
-    code.js {
-      color: #FFAD00;
-    }
+
+     
     .main {
       float: left;
       width: 100%;
       margin: 0 auto;
     }
     
-    .main h1 {
-      padding:150px 50px;
-      float: left;
-      width: 100%;
-      font-size: 45px;
-      box-sizing: border-box;
-      -webkit-box-sizing: border-box;
-      -moz-box-sizing: border-box;
-      font-weight: 100;
-      color: white;
-      margin: 0;
-    }
-    .main h1.demo1 {
-      background: #1ABC9C;
-    }
-
+   
     .btns {
       margin: 50px auto;
       margin-left: 110px;
@@ -134,15 +59,17 @@ html {
     }
     #dota2{
     	height: 100px;
+        	margin:-50px 0px 0px 940px; 
+
     }
-        .main section > img {
-        	margin-left:960px;
-        	margin-top:80px;
-      max-width: 100%;
-      z-index: 1;
-    }
+    
+	.thermal{
+		margin-top: 120px;
+	}
+
+
         .main section.page1 {
-  background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(246,246,246,1) 47%,rgba(237,237,237,1) 100%);
+  background: linear-gradient(to bottom, rgba(212,228,239,1) 50%,rgba(134,174,204,1) 98%);
     }
         .main section.page1 img {
         	height: 80px;
@@ -155,7 +82,7 @@ html {
       color: rgba(0,0,0,0.85);
       text-align: center;
       width: 435px;
-      line-height: 160%;
+
     }
     .main section .page_container .btns {
       clear: both;
@@ -166,28 +93,51 @@ html {
     .main section .page_container .btns a{
       text-align: center;
     }
-        .main section.page2 {
-      background: #555557 url(../img/back-phone.png) no-repeat center -150px ;
-    }
-    .main section.page2 .page_container {
-      margin-top: 240px;
-      overflow: hidden;
-    }
-    .main section.page2 h1 {
-      text-align: center;
-      padding: 0;
-      margin-bottom: 15px;
-      font-size: 50px;
-      letter-spacing: -1px;
-      color: white;
-    }
-    .main section.page2 h2 {
-      color: rgba(255,255,255,0.85);
-      text-align: center;
-      line-height: 160%;
-      font-weight: 100;
-    }
-    .viewing-page-2 .back{
-      background: rgba(0, 0, 0, 0.25);
-      color: #FFF;
-      }
+       .src-image {
+  display: none;
+}
+
+.page2{
+background: linear-gradient(to bottom, rgba(125,185,232,1) 0%,rgba(125,185,232,0.97) 2%,rgba(125,185,232,0.42) 42%,rgba(125,185,232,0.34) 48%,rgba(125,185,232,0.3) 51%,rgba(30,87,153,0.19) 59%,rgba(125,185,232,0.12) 64%,rgba(125,185,232,0) 72%);}
+.card {
+  overflow: hidden;
+  position: relative;
+  border: 1px solid #CCC;
+  border-radius: 8px;
+  text-align: center;
+  padding: 0;
+  background-color: #284c79;
+  color: rgb(136, 172, 217);
+ }
+
+.card .header-bg {
+  /* This stretches the canvas across the entire hero unit */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 70px;
+  border-bottom: 1px #FFF solid;
+  /* This positions the canvas under the text */
+  z-index: 1;
+}
+.card .avatar {
+  position: relative;
+  margin-top: 15px;
+  z-index: 100;
+}
+
+.card .avatar img {
+  width: 130px;
+  height: 130px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  border: 5px solid rgba(0,0,30,0.8);
+}
+.page2nd{
+	margin:50px 0px 0px 0px;
+}
+.kartu{
+	margin: 20px 0px 0px 180px;
+}
